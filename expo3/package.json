@@ -1,0 +1,36 @@
+{
+  "name": "expo3",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.88.3",
+    "@react-three/fiber": "^8.15.5",
+    "@types/three": "^0.157.0",
+    "expo": "~49.0.13",
+    "expo-gl": "~13.0.1",
+    "expo-status-bar": "~1.6.0",
+    "expo-three-orbit-controls": "2.0.0",
+    "jotai": "^2.4.3",
+    "korol-joystick": "^1.7.0",
+    "r3f-native-orbitcontrols": "^1.0.8",
+    "react": "18.2.0",
+    "react-joystick-component": "^6.2.1",
+    "react-native": "0.72.5",
+    "react-native-game-pad": "^1.0.0",
+    "react-native-gesture-handler": "^2.13.3",
+    "react-native-virtual-joystick": "^0.1.7",
+    "react-native-webview": "^13.6.2",
+    "socket.io-client": "^4.7.2",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
